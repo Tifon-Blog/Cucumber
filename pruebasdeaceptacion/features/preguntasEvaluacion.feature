@@ -6,5 +6,5 @@ Feature: Prueba para ver preguntas evaluacion
 
     Examples: 
       | mensaje                        |
-      | ¿ El profesor cumplio su deber |
+      | ¿ El profesor cumplio su deber | 
 

@@ -25,7 +25,7 @@ public class NoPreguntasAutoEvalStepsDefinitions {
 	public void el_usuario_deberia_ver_el_mensaje_para_saber_que_no_hay_preguntas(String mensaje) throws Throwable {
 		String respuesta = controlador.findElement(By.id("formDialog:j_idt15_data")).getText();
 		controlador.close();
-		Assert.assertEquals(respuesta, mensaje);
+		Assert.assertEquals(respuesta, mensaje); 
 	}
 
 }

@@ -6,5 +6,5 @@ Feature: Prueba para no ver preguntas de autoevaluacion
 
     Examples: 
       | mensaje           |
-      | No records found. |
+      | No records found. | 
 

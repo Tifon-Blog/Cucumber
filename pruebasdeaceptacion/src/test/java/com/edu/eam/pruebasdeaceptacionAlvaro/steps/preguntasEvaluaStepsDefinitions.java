@@ -10,7 +10,7 @@ import junit.framework.Assert;
 
 public class preguntasEvaluaStepsDefinitions {
 
-	WebDriver controlador;
+	WebDriver controlador; 
 
 	@Given("^Abrimos el navegador y vamos al sitio web ver preguntas evaluacion$")
 	public void abrimos_el_navegador_y_vamos_al_sitio_web_ver_preguntas_evaluacion() throws Throwable {
