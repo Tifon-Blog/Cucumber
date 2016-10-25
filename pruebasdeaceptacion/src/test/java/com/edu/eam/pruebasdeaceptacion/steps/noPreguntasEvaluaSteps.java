@@ -28,7 +28,7 @@ public class noPreguntasEvaluaSteps {
 		String resultado = controlador.findElement(By.id("formDialog:j_idt16_data")).getText();
 		controlador.close();
 		Assert.assertEquals(resultado, mensaje);
-	}
+	}  
 
 
 	

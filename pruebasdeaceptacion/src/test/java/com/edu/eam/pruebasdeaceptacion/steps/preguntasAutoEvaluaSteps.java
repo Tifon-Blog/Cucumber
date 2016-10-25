@@ -25,7 +25,8 @@ public class preguntasAutoEvaluaSteps {
 	@Then("^El usuario deberia ver las preguntas \"([^\"]*)\" al final$")
 	public void el_usuario_deberia_ver_las_preguntas_al_final(String pregunta) throws Throwable {
 		String resultado = controlador.findElement(By.id("formDialog:j_idt16:0:preguntaAutoE")).getText();
-		controlador.close();
+		controlador.close();  
+		
 		Assert.assertEquals(resultado, pregunta);
 	}
 
