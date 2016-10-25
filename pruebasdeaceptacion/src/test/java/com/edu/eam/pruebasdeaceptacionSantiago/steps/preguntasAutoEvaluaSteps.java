@@ -1,4 +1,4 @@
-package com.edu.eam.pruebasdeaceptacion.steps;
+package com.edu.eam.pruebasdeaceptacionSantiago.steps;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
