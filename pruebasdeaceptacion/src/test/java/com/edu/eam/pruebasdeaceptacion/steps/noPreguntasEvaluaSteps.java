@@ -27,6 +27,7 @@ public class noPreguntasEvaluaSteps {
 	public void el_usuario_deberia_ver_el_siguente_el_cual_dice_que_no_hay_registros(String mensaje) throws Throwable {
 		String resultado = controlador.findElement(By.id("formDialog:j_idt16_data")).getText();
 		controlador.close();
+		
 		Assert.assertEquals(resultado, mensaje);
 	}  
 

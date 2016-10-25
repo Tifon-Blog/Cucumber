@@ -27,6 +27,7 @@ public class preguntasAutoEvaluaSteps {
 		String resultado = controlador.findElement(By.id("formDialog:j_idt16:0:preguntaAutoE")).getText();
 		controlador.close();  
 		
+		
 		Assert.assertEquals(resultado, pregunta);
 	}
 
