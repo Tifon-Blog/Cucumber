@@ -16,7 +16,7 @@ public class preguntasAutoEvaluaSteps {
 
 	@Given("^Abrimos el navegador y vamos al sitio web del login$")
 	public void abrimos_el_navegador_y_vamos_al_sitio_web_del_login() throws Throwable {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\ASUS\\Desktop\\PruebasDeAceptacion-master\\pruebasdeaceptacion\\drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Jefry\\git\\PruebasDeAceptacion\\pruebasdeaceptacion\\drivers\\chromedriver.exe");
 	    controlador= new ChromeDriver();
 	    controlador.manage().window().maximize();
 	    controlador.get("http://localhost:8089/EvaluacionDocenteEAM-1.0.0/XHTML/respuestaAutoEvaluacion.faces");

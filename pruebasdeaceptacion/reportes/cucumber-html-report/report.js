@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("NoPreguntasAutoevaluacion.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("NoPreguntasAutoevaluacionAlvaro.feature");
 formatter.feature({
   "line": 1,
   "name": "Prueba para no ver preguntas de autoevaluacion",
@@ -68,27 +68,105 @@ formatter.step({
   ],
   "keyword": "Then "
 });
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.uri("NoPreguntasCoevaluacionJefry.feature");
+formatter.feature({
+  "line": 1,
+  "name": "Prueba para no ver preguntas de autoevaluacion",
+  "description": "",
+  "id": "prueba-para-no-ver-preguntas-de-autoevaluacion",
+  "keyword": "Feature"
+});
+formatter.scenarioOutline({
+  "line": 3,
+  "name": "Preguntas_Coevaluacion_No_Encontradas",
+  "description": "",
+  "id": "prueba-para-no-ver-preguntas-de-autoevaluacion;preguntas-coevaluacion-no-encontradas",
+  "type": "scenario_outline",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 4,
+  "name": "Abrimos el navegador y vamos al sitio web de respuesta Coevaluacion",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "El usuario debera ver el mensaje \"\u003cmensaje\u003e\" para saber que no hay preguntas",
+  "keyword": "Then "
+});
+formatter.examples({
+  "line": 7,
+  "name": "",
+  "description": "",
+  "id": "prueba-para-no-ver-preguntas-de-autoevaluacion;preguntas-coevaluacion-no-encontradas;",
+  "rows": [
+    {
+      "cells": [
+        "mensaje"
+      ],
+      "line": 8,
+      "id": "prueba-para-no-ver-preguntas-de-autoevaluacion;preguntas-coevaluacion-no-encontradas;;1"
+    },
+    {
+      "cells": [
+        "No records found."
+      ],
+      "line": 9,
+      "id": "prueba-para-no-ver-preguntas-de-autoevaluacion;preguntas-coevaluacion-no-encontradas;;2"
+    }
+  ],
+  "keyword": "Examples"
+});
+formatter.scenario({
+  "line": 9,
+  "name": "Preguntas_Coevaluacion_No_Encontradas",
+  "description": "",
+  "id": "prueba-para-no-ver-preguntas-de-autoevaluacion;preguntas-coevaluacion-no-encontradas;;2",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 4,
+  "name": "Abrimos el navegador y vamos al sitio web de respuesta Coevaluacion",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "El usuario debera ver el mensaje \"No records found.\" para saber que no hay preguntas",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Then "
+});
 formatter.match({
-  "location": "NoPreguntasAutoEvalStepsDefinitions.abrimos_el_navegador_y_vamos_al_sitio_web_no_ver_preguntas_de_autoevaluacion()"
+  "location": "PreguntasCoevaluacionNoEncontradasSteps.abrimos_el_navegador_y_vamos_al_sitio_web_de_respuesta_Coevaluacion()"
 });
 formatter.result({
-  "duration": 9219088627,
+  "duration": 5086687109,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
       "val": "No records found.",
-      "offset": 35
+      "offset": 34
     }
   ],
-  "location": "NoPreguntasAutoEvalStepsDefinitions.el_usuario_deberia_ver_el_mensaje_para_saber_que_no_hay_preguntas(String)"
+  "location": "PreguntasCoevaluacionNoEncontradasSteps.el_usuario_debera_ver_el_mensaje_para_saber_que_no_hay_preguntas(String)"
 });
 formatter.result({
-  "duration": 1299913970,
+  "duration": 191008772,
   "status": "passed"
 });
-formatter.uri("NoPreguntasEvalua.feature");
+formatter.uri("NoPreguntasEvaluacionSantiago.feature");
 formatter.feature({
   "line": 1,
   "name": "prueba de carga de no preguntas de evaluacion",
@@ -166,7 +244,7 @@ formatter.match({});
 formatter.result({
   "status": "undefined"
 });
-formatter.uri("PreguntaAutoEvalua.feature");
+formatter.uri("PreguntaAutoEvaluacionSantiago.feature");
 formatter.feature({
   "line": 1,
   "name": "prueba de carga de preguntas de la AutoEvaluacion",
@@ -244,7 +322,85 @@ formatter.match({});
 formatter.result({
   "status": "undefined"
 });
-formatter.uri("preguntasEvaluacion.feature");
+formatter.uri("PreguntaCoevaluacionJefry.feature");
+formatter.feature({
+  "line": 1,
+  "name": "Prueba para ver preguntas evaluacion",
+  "description": "",
+  "id": "prueba-para-ver-preguntas-evaluacion",
+  "keyword": "Feature"
+});
+formatter.scenarioOutline({
+  "line": 3,
+  "name": "Preguntas_Coevaluacion_Encontradas",
+  "description": "",
+  "id": "prueba-para-ver-preguntas-evaluacion;preguntas-coevaluacion-encontradas",
+  "type": "scenario_outline",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 4,
+  "name": "Abrimos el navegador y vamos al sitio web respuesta Coevaluacion",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "El usuario debera ver la pregunta \"\u003cmensaje\u003e\" en el sitio web",
+  "keyword": "Then "
+});
+formatter.examples({
+  "line": 7,
+  "name": "",
+  "description": "",
+  "id": "prueba-para-ver-preguntas-evaluacion;preguntas-coevaluacion-encontradas;",
+  "rows": [
+    {
+      "cells": [
+        "mensaje"
+      ],
+      "line": 8,
+      "id": "prueba-para-ver-preguntas-evaluacion;preguntas-coevaluacion-encontradas;;1"
+    },
+    {
+      "cells": [
+        "¿ El profesor cumplio su deber ?"
+      ],
+      "line": 9,
+      "id": "prueba-para-ver-preguntas-evaluacion;preguntas-coevaluacion-encontradas;;2"
+    }
+  ],
+  "keyword": "Examples"
+});
+formatter.scenario({
+  "line": 9,
+  "name": "Preguntas_Coevaluacion_Encontradas",
+  "description": "",
+  "id": "prueba-para-ver-preguntas-evaluacion;preguntas-coevaluacion-encontradas;;2",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 4,
+  "name": "Abrimos el navegador y vamos al sitio web respuesta Coevaluacion",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "El usuario debera ver la pregunta \"¿ El profesor cumplio su deber ?\" en el sitio web",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Then "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.uri("PreguntaEvaluacionAlvaro.feature");
 formatter.feature({
   "line": 1,
   "name": "Prueba para ver preguntas evaluacion",
@@ -314,24 +470,12 @@ formatter.step({
   ],
   "keyword": "Then "
 });
-formatter.match({
-  "location": "preguntasEvaluaStepsDefinitions.abrimos_el_navegador_y_vamos_al_sitio_web_ver_preguntas_evaluacion()"
-});
+formatter.match({});
 formatter.result({
-  "duration": 5108503501,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "arguments": [
-    {
-      "val": "¿ El profesor cumplio su deber",
-      "offset": 35
-    }
-  ],
-  "location": "preguntasEvaluaStepsDefinitions.el_usuario_deberia_ver_el_mensaje(String)"
-});
+formatter.match({});
 formatter.result({
-  "duration": 1165221839,
-  "status": "passed"
+  "status": "undefined"
 });
 });
